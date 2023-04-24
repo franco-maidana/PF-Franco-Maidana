@@ -1036,83 +1036,21 @@ body {
 
 @media (max-width: 480px) {
   .cajafija {
-    position: relative;
-    margin: 2% auto;
     width: 80%;
-    height: auto;
   }
 
   .caja {
-    position: relative;
-    margin: 2% auto;
-    width: auto;
-    height: auto;
-    background: white;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-
-
     form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-
-      textarea {
-        display: flex;
-        flex-flow: column;
-        min-width: 90%;
-        max-width: 90%;
-        min-height: 80px;
-        max-height: 80px;
-        margin-left: 10px;
-        margin-right: 20px;
-      }
-
-      div {
-        font-family: $texto-lectura;
-        font-weight: bold;
-        font-size: 15px;
-        padding: 10px;
-        margin-bottom: 5px;
-        color: black;
-      }
-
       input {
         width: 50%;
-        height: 25px;
-        text-align: center;
-        font-family: $texto-lectura;
-      }
-
-      .tilde {
-        width: 15px;
-        height: 15px;
-      }
-
-      .enviar {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
       }
 
       .botonform {
         width: 140px;
         height: 30px;
         border-radius: 25px;
-        font-weight: bolder;
-        background: $color-secundario;
-        font-size: 12px;
-      }
-
-      .botonform:hover {
-        cursor: pointer;
-        background: $color-Principal ;
-        color: white;
       }
     }
-
   }
 }
 

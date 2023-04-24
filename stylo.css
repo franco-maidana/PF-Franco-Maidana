@@ -886,71 +886,15 @@ body {
 }
 @media (max-width: 480px) {
   .cajafija {
-    position: relative;
-    margin: 2% auto;
     width: 80%;
-    height: auto;
-  }
-  .caja {
-    position: relative;
-    margin: 2% auto;
-    width: auto;
-    height: auto;
-    background: white;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-  }
-  .caja form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .caja form textarea {
-    display: flex;
-    flex-flow: column;
-    min-width: 90%;
-    max-width: 90%;
-    min-height: 80px;
-    max-height: 80px;
-    margin-left: 10px;
-    margin-right: 20px;
-  }
-  .caja form div {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 10px;
-    margin-bottom: 5px;
-    color: black;
   }
   .caja form input {
     width: 50%;
-    height: 25px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .caja form .tilde {
-    width: 15px;
-    height: 15px;
-  }
-  .caja form .enviar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
   }
   .caja form .botonform {
     width: 140px;
     height: 30px;
     border-radius: 25px;
-    font-weight: bolder;
-    background: linear-gradient(to left, white, rgba(245, 131, 9, 0.9019607843));
-    font-size: 12px;
-  }
-  .caja form .botonform:hover {
-    cursor: pointer;
-    background: rgba(245, 131, 9, 0.9019607843);
-    color: white;
   }
 }
 
