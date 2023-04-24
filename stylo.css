@@ -1,0 +1,1165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background: rgba(245, 131, 9, 0.9019607843);
+  font-family: "gajraj one", cursive;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: 7%;
+}
+
+.navegacion {
+  height: 100%;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contenedor {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 1px;
+  top: 7.5px;
+}
+
+.button {
+  width: 10em;
+  position: relative;
+  height: 1.5em;
+  border: 1px ridge orange;
+  border-radius: 20px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttton::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  transition: 0.5s;
+}
+
+.button:hover::before,
+button:hover::after {
+  transform: scale(0);
+}
+
+.button:hover {
+  box-shadow: inset 0px 0px 25px orangered;
+}
+
+.padre {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.caja1 {
+  background: linear-gradient(to left, white, rgba(245, 131, 9, 0.9019607843));
+}
+
+.texto {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: black;
+  background: radial-gradient(bisque, rgba(245, 131, 9, 0.9019607843));
+  font-weight: bold;
+}
+
+.caja2 {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+section img {
+  width: 386px;
+  height: 157px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+section img:hover {
+  width: 386px;
+  height: 250px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+footer {
+  background-color: rgba(245, 131, 9, 0.9019607843);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 7%;
+}
+
+.redes {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+}
+
+.tiktok {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(245, 131, 9, 0.9019607843);
+    padding: 9px;
+    font-family: "gajraj one", cursive;
+  }
+  /* comienzo de la navegacion principal */
+  nav {
+    background-color: white;
+    width: 100%;
+    height: 7%;
+  }
+  .navegacion {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .contenedor {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1px;
+    top: 7.5px;
+  }
+  .button {
+    width: 10em;
+    position: relative;
+    height: 1.5em;
+    border: 1px ridge orange;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .buttton::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  .button:hover::before,
+  button:hover::after {
+    transform: scale(0);
+  }
+  .button:hover {
+    box-shadow: inset 0px 0px 25px orangered;
+  }
+  .padre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+  }
+  .caja1 {
+    width: 100%;
+    background: linear-gradient(to left, white, rgba(245, 131, 9, 0.9019607843));
+  }
+  .texto {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: black;
+    background: radial-gradient(bisque, rgba(245, 131, 9, 0.9019607843));
+    font-weight: bold;
+  }
+  .caja2 {
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    display: flex;
+    width: auto;
+    /* height: auto; */
+  }
+  section img {
+    width: 100%;
+    height: 107px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+  }
+  section img:hover {
+    width: 100%;
+    height: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  /* inicio del footer */
+  footer {
+    background-color: rgba(245, 131, 9, 0.9019607843);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 9%;
+  }
+  .redes {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .facebook {
+    width: 25px;
+    height: 25px;
+  }
+  .instagram {
+    width: 25px;
+    height: 25px;
+  }
+  .twitter {
+    width: 25px;
+    height: 25px;
+  }
+  .tiktok {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 480px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    width: 96%;
+    text-align: center;
+    background-color: rgba(245, 131, 9, 0.9019607843);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  /* comienzo de la navegacion principal */
+  nav {
+    background-color: white;
+    width: 100%;
+    height: 7%;
+  }
+  .navegacion {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .contenedor {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1px;
+    top: 7.5px;
+  }
+  .button {
+    width: 10em;
+    position: relative;
+    height: 1.5em;
+    border: 1px ridge orange;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .buttton::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  .button:hover::before,
+  button:hover::after {
+    transform: scale(0);
+  }
+  .button:hover {
+    box-shadow: inset 0px 0px 25px orangered;
+  }
+  .padre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja1 {
+    width: 100%;
+    background: linear-gradient(to left, white, rgba(245, 131, 9, 0.9019607843));
+  }
+  .texto {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    background: radial-gradient(bisque, rgba(245, 131, 9, 0.9019607843));
+    font-weight: bold;
+  }
+  .caja2 {
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  section img {
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+  }
+  section img:hover {
+    width: 100%;
+    height: 250px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  /* inicio del footer */
+  footer {
+    background-color: rgba(245, 131, 9, 0.9019607843);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 9%;
+  }
+  .redes {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .facebook {
+    width: 15px;
+    height: 15px;
+  }
+  .instagram {
+    width: 15px;
+    height: 15px;
+  }
+  .twitter {
+    width: 15px;
+    height: 15px;
+  }
+  .tiktok {
+    width: 15px;
+    height: 15px;
+  }
+}
+.headernosotros h1 {
+  font-size: 31px;
+  font-weight: bold;
+  color: black;
+}
+.headernosotros h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.bodynosotros {
+  background: radial-gradient(bisque, rgba(245, 131, 9, 0.9019607843));
+}
+
+.infonosotros h1 {
+  text-align: center;
+  color: black;
+  font-family: "gajraj one", cursive;
+}
+.infonosotros p {
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.textonosotros {
+  text-align: center;
+  font-weight: bolder;
+}
+.textonosotros h3 {
+  font-family: "gajraj one", cursive;
+}
+
+.imagen {
+  display: flex;
+  width: 600px;
+  height: 220px;
+  margin-top: 10%;
+}
+
+.imagen img {
+  width: 0px;
+  height: 150px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.imagen img:hover {
+  width: 200px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.mainplanes {
+  width: 100%;
+  background: radial-gradient(white, rgba(245, 131, 9, 0.9019607843));
+}
+.mainplanes .planes {
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.mainplanes .planes h1 {
+  font-family: "gajraj one", cursive;
+  font-size: 35px;
+}
+.mainplanes .planes p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.mainplanes .cuadrosinformativos {
+  padding-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "gajraj one", cursive;
+}
+.mainplanes .cuadrosinformativos .promo {
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  border-radius: 75px;
+  background-color: rgb(252, 112, 18);
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  box-shadow: 0 0 0 rgba(241, 4, 4, 0.4);
+  animation: pulse 2s infinite;
+  cursor: pointer;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  70% {
+    transform: scale(0.8);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: black;
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    background-color: orangered;
+  }
+}
+.mainplanes .tableuno {
+  width: 40%;
+  background-color: beige;
+}
+.mainplanes .tabledos {
+  width: 17%;
+  background-color: beige;
+}
+
+@media (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    width: 100%;
+    text-align: center;
+    background: rgba(245, 131, 9, 0.9019607843);
+    font-family: "gajraj one", cursive;
+    font-size: 13px;
+  }
+  nav {
+    background-color: white;
+    width: 100%;
+    height: 7%;
+  }
+  .navegacion {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .contenedor {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1px;
+    top: 7.5px;
+  }
+  .button {
+    width: 10em;
+    position: relative;
+    height: 1.5em;
+    border: 1px ridge orange;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .buttton::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  .button:hover::before,
+  button:hover::after {
+    transform: scale(0);
+  }
+  .button:hover {
+    box-shadow: inset 0px 0px 25px orangered;
+  }
+  .mainplanes .planes {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .mainplanes .planes h1 {
+    font-family: "gajraj one", cursive;
+    font-size: 25px;
+  }
+  .mainplanes .planes p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .mainplanes .cuadrosinformativos {
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mainplanes .tableuno {
+    width: 70%;
+    background-color: beige;
+  }
+  .mainplanes .tabledos {
+    width: 30%;
+    background-color: beige;
+  }
+  .mainplanes .promo {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 75px;
+    background-color: rgb(252, 112, 18);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    box-shadow: 0 0 0 rgba(241, 4, 4, 0.4);
+    animation: pulse 2s infinite;
+    cursor: pointer;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    70% {
+      transform: scale(0.8);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: beige;
+      color: black;
+    }
+    100% {
+      transform: scale(0.9);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+      background-color: orangered;
+    }
+  }
+  footer {
+    background-color: rgba(245, 131, 9, 0.9019607843);
+    font-family: "gajraj one", cursive;
+    width: 100%;
+    height: 9%;
+  }
+  .redes {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .facebook {
+    width: 15px;
+    height: 15px;
+  }
+  .instagram {
+    width: 15px;
+    height: 15px;
+  }
+  .twitter {
+    width: 15px;
+    height: 15px;
+  }
+  .tiktok {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 480px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    width: 96%;
+    text-align: center;
+    background: rgba(245, 131, 9, 0.9019607843);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  header h2 {
+    font-size: 12px;
+  }
+  nav {
+    background-color: white;
+    width: 100%;
+    height: 7%;
+  }
+  .navegacion {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .contenedor {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1px;
+    top: 7.5px;
+  }
+  .button {
+    width: 10em;
+    position: relative;
+    height: 1.5em;
+    border: 1px ridge orange;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .buttton::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  .button:hover::before,
+  button:hover::after {
+    transform: scale(0);
+  }
+  .button:hover {
+    box-shadow: inset 0px 0px 25px orangered;
+  }
+  .mainplanes {
+    width: 100%;
+    background: radial-gradient(white, rgba(245, 131, 9, 0.9019607843));
+  }
+  .mainplanes .planes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .mainplanes .planes h1 {
+    font-family: "gajraj one", cursive;
+    font-size: 20px;
+  }
+  .mainplanes .planes p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  .mainplanes .cuadrosinformativos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mainplanes .tableuno {
+    width: 93%;
+    background-color: beige;
+  }
+  .mainplanes .tabledos {
+    width: 50%;
+    background-color: beige;
+  }
+  .mainplanes .promo {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 75px;
+    background-color: rgb(252, 112, 18);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    box-shadow: 0 0 0 rgba(241, 4, 4, 0.4);
+    animation: pulse 2s infinite;
+    cursor: pointer;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    70% {
+      transform: scale(0.8);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: beige;
+      color: black;
+    }
+    100% {
+      transform: scale(0.9);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+      background-color: orangered;
+    }
+  }
+  footer {
+    background-color: rgba(245, 131, 9, 0.9019607843);
+    font-family: "gajraj one", cursive;
+    width: 100%;
+    height: 6%;
+    margin: 0;
+  }
+  .redes {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .facebook {
+    width: 15px;
+    height: 15px;
+  }
+  .instagram {
+    width: 15px;
+    height: 15px;
+  }
+  .twitter {
+    width: 15px;
+    height: 15px;
+  }
+  .tiktok {
+    width: 15px;
+    height: 15px;
+  }
+}
+body {
+  background: radial-gradient(bisque, rgba(245, 131, 9, 0.9019607843));
+}
+
+.h1contacto {
+  padding: 5px;
+  text-align: center;
+  font-family: "gajraj one", cursive;
+  font-size: 40px;
+}
+
+.cajafija {
+  position: relative;
+  margin: 2% auto;
+  width: 50%;
+  height: auto;
+}
+
+.caja {
+  position: relative;
+  margin: 2% auto;
+  width: auto;
+  height: auto;
+  background: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+.caja form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.caja form textarea {
+  display: flex;
+  flex-flow: column;
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 80px;
+  max-height: 80px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.caja form div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 5px;
+  color: black;
+}
+.caja form input {
+  width: 30%;
+  height: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.caja form .tilde {
+  width: 15px;
+  height: 15px;
+}
+.caja form .enviar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.caja form .botonform {
+  height: 28px;
+  border-radius: 25px;
+  font-weight: bolder;
+  background: linear-gradient(to left, white, rgba(245, 131, 9, 0.9019607843));
+  font-size: 12px;
+}
+.caja form .botonform:hover {
+  cursor: pointer;
+  background: rgba(245, 131, 9, 0.9019607843);
+  color: white;
+}
+
+.glow::before,
+.glow::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(20deg, rgba(245, 131, 9, 0.9019607843), white, rgba(245, 131, 9, 0.9019607843));
+  border-radius: 25px;
+  background-size: 500%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: animtest 60s linear infinite;
+}
+
+@keyframes animtest {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.glow::after {
+  filter: blur(20px);
+}
+
+@media (max-width: 768px) {
+  .cajafija {
+    position: relative;
+    margin: 2% auto;
+    width: 70%;
+    height: auto;
+  }
+  .caja {
+    position: relative;
+    margin: 2% auto;
+    width: auto;
+    height: auto;
+    background: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+  }
+  .caja form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .caja form textarea {
+    display: flex;
+    flex-flow: column;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 80px;
+    max-height: 80px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .caja form div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+  }
+  .caja form input {
+    width: 30%;
+    height: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .caja form .tilde {
+    width: 15px;
+    height: 15px;
+  }
+  .caja form .enviar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .caja form .botonform {
+    height: 28px;
+    border-radius: 25px;
+    font-weight: bolder;
+    background: linear-gradient(to left, white, rgba(245, 131, 9, 0.9019607843));
+    font-size: 12px;
+  }
+  .caja form .botonform:hover {
+    cursor: pointer;
+    background: rgba(245, 131, 9, 0.9019607843);
+    color: white;
+  }
+}
+@media (max-width: 480px) {
+  .cajafija {
+    position: relative;
+    margin: 2% auto;
+    width: 80%;
+    height: auto;
+  }
+  .caja {
+    position: relative;
+    margin: 2% auto;
+    width: auto;
+    height: auto;
+    background: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+  }
+  .caja form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .caja form textarea {
+    display: flex;
+    flex-flow: column;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 80px;
+    max-height: 80px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .caja form div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+  }
+  .caja form input {
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .caja form .tilde {
+    width: 15px;
+    height: 15px;
+  }
+  .caja form .enviar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .caja form .botonform {
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+    font-weight: bolder;
+    background: linear-gradient(to left, white, rgba(245, 131, 9, 0.9019607843));
+    font-size: 12px;
+  }
+  .caja form .botonform:hover {
+    cursor: pointer;
+    background: rgba(245, 131, 9, 0.9019607843);
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=stylo.css.map */
