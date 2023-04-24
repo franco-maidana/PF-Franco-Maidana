@@ -639,69 +639,7 @@ footer {
   header h2 {
     font-size: 12px;
   }
-  nav {
-    background-color: white;
-    width: 100%;
-    height: 7%;
-  }
-  .navegacion {
-    height: 100%;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 11px;
-  }
-  .contenedor {
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    gap: 1px;
-    top: 7.5px;
-  }
-  .button {
-    width: 10em;
-    position: relative;
-    height: 1.5em;
-    border: 1px ridge orange;
-    border-radius: 20px;
-    outline: none;
-    background-color: transparent;
-    color: white;
-    transition: 1s;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .buttton::after {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: 3%;
-    width: 95%;
-    height: 40%;
-    background-color: #212121;
-    transition: 0.5s;
-    transform-origin: center;
-  }
-  .button::before {
-    content: "";
-    transform-origin: center;
-    position: absolute;
-    top: 80%;
-    left: 3%;
-    width: 95%;
-    height: 40%;
-    transition: 0.5s;
-  }
-  .button:hover::before,
-  button:hover::after {
-    transform: scale(0);
-  }
-  .button:hover {
-    box-shadow: inset 0px 0px 25px orangered;
-  }
   .mainplanes {
-    width: 100%;
     background: radial-gradient(white, rgba(245, 131, 9, 0.9019607843));
   }
   .mainplanes .planes {
@@ -712,12 +650,12 @@ footer {
   }
   .mainplanes .planes h1 {
     font-family: "gajraj one", cursive;
-    font-size: 20px;
+    font-size: 30px;
   }
   .mainplanes .planes p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 18px;
   }
   .mainplanes .cuadrosinformativos {
     display: flex;
@@ -767,34 +705,6 @@ footer {
       box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
       background-color: orangered;
     }
-  }
-  footer {
-    background-color: rgba(245, 131, 9, 0.9019607843);
-    font-family: "gajraj one", cursive;
-    width: 100%;
-    height: 6%;
-    margin: 0;
-  }
-  .redes {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-  }
-  .facebook {
-    width: 15px;
-    height: 15px;
-  }
-  .instagram {
-    width: 15px;
-    height: 15px;
-  }
-  .twitter {
-    width: 15px;
-    height: 15px;
-  }
-  .tiktok {
-    width: 15px;
-    height: 15px;
   }
 }
 body {
