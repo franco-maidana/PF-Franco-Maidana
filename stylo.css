@@ -708,6 +708,7 @@ footer {
   }
 }
 .bodyplanes {
+  height: 96%;
   background: radial-gradient(bisque, rgba(245, 131, 9, 0.9019607843));
 }
 
