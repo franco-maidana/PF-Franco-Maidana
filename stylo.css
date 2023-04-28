@@ -955,6 +955,12 @@ footer {
   .cajafija {
     width: 80%;
   }
+  .bodyplanes {
+    height: 100vh;
+  }
+  nav {
+    height: 30px;
+  }
   .caja form input {
     width: 50%;
   }
