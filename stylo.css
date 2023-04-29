@@ -355,15 +355,6 @@ footer {
     box-shadow: inset 0px 0px 25px orangered;
   }
 }
-@media (max-width: 480px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
-  .texto {
-    font-size: 15px;
-  }
-}
 .headernosotros h1 {
   font-size: 31px;
   font-weight: bold;
@@ -1017,6 +1008,10 @@ footer {
   }
   .button {
     height: 35px;
+  }
+  footer {
+    display: flex;
+    align-items: center;
   }
   .bodydondestamos {
     display: flex;

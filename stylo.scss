@@ -399,17 +399,6 @@ footer {
 
 }
 
-@media(max-width: 480px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
-
-  .texto {
-    font-size: 15px;
-  }
-}
-
 // fin de la vista desktop y movil
 //comienzo de hoja Nosotros.html
 .headernosotros {
@@ -1208,6 +1197,11 @@ footer {
 
   .button {
     height: 35px;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
   }
 
   .bodydondestamos {
