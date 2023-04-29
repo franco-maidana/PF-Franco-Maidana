@@ -185,14 +185,6 @@ footer {
     font-weight: bold;
     font-size: 12px;
   }
-  .contenedor {
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    gap: 1px;
-    top: 7.5px;
-  }
   .button {
     width: 10em;
     position: relative;
@@ -321,14 +313,6 @@ footer {
     font-weight: bold;
     font-size: 14px;
   }
-  .contenedor {
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    gap: 1px;
-    top: 7.5px;
-  }
   .button {
     width: 10em;
     position: relative;
@@ -437,21 +421,6 @@ footer {
   filter: contrast(120%);
 }
 
-@media (max-width: 480px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
-  .bodynosotros header {
-    width: 100%;
-  }
-  .bodynosotros header h1 {
-    font-size: 20px;
-  }
-  .bodynosotros header h2 {
-    font-size: 12px;
-  }
-}
 .mainplanes {
   width: 100%;
   background: radial-gradient(white, rgba(245, 131, 9, 0.9019607843));
@@ -546,14 +515,6 @@ footer {
     text-decoration: none;
     font-weight: bold;
     font-size: 11px;
-  }
-  .contenedor {
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    gap: 1px;
-    top: 7.5px;
   }
   .button {
     width: 10em;
@@ -705,6 +666,15 @@ footer {
   header h2 {
     font-size: 12px;
   }
+  .bodynosotros header {
+    width: 100%;
+  }
+  .bodynosotros header h1 {
+    font-size: 20px;
+  }
+  .bodynosotros header h2 {
+    font-size: 12px;
+  }
   .mainplanes {
     background: radial-gradient(white, rgba(245, 131, 9, 0.9019607843));
   }
@@ -788,7 +758,6 @@ footer {
   position: relative;
   margin: 2% auto;
   width: 50%;
-  height: auto;
 }
 
 .caja {
@@ -804,6 +773,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 600px;
 }
 .caja form textarea {
   display: flex;
@@ -838,6 +808,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 0px;
 }
 .caja form .botonform {
   height: 28px;
@@ -931,12 +902,6 @@ footer {
     width: 15px;
     height: 15px;
   }
-  .caja form .enviar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
   .caja form .botonform {
     height: 28px;
     border-radius: 25px;
@@ -953,9 +918,13 @@ footer {
 @media (max-width: 480px) {
   .cajafija {
     width: 80%;
+    height: 650px;
+  }
+  .caja {
+    height: 600px;
   }
   nav {
-    height: 30px;
+    height: 40px;
   }
   .caja form input {
     width: 50%;
@@ -1043,6 +1012,12 @@ footer {
   }
 }
 @media (max-width: 480px) {
+  nav {
+    height: 55px;
+  }
+  .button {
+    height: 35px;
+  }
   .bodydondestamos {
     display: flex;
     flex-direction: column;
