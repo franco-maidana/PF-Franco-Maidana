@@ -965,11 +965,6 @@ footer {
     height: 30px;
     border-radius: 25px;
   }
-  footer {
-    height: 28px;
-    position: absolute;
-    bottom: 0;
-  }
 }
 .bodydondestamos {
   display: flex;
