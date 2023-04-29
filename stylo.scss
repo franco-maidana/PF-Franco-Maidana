@@ -1138,6 +1138,8 @@ footer {
 
   footer {
     height: 28px;
+    position: absolute;
+    bottom: 0;
   }
 }
 
@@ -1281,16 +1283,8 @@ footer {
           font-size: 20px;
         }
 
-
       }
     }
   }
 
-  footer {
-    background-color: $color-Principal;
-    font-family: $texto-lectura;
-    position: absolute;
-    bottom: -18;
-    width: 100%;
-  }
 }
